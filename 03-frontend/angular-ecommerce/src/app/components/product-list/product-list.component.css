@@ -1,0 +1,14 @@
+.btn-primary{
+    background-color: #208d77;
+    border: #208d77;
+}
+.btn-primary:hover{
+    background-color: #0e713f;
+}
+ngb-pagination ::ng-deep ul > li.active > a {
+    background-color: #208d77 !important;
+    border: #208d77 !important;
+}
+ngb-pagination ::ng-deep ul > li:not(.active) > a {
+    color: #208d77;
+}
